@@ -1,6 +1,7 @@
 (defun my:misc-config()
   ;;(setq debug-on-error t)
   (global-hl-line-mode)
+  (set-cursor-color "LightGreen")
   (setq make-backup-files nil)
   (setq auto-save-default nil)
   (add-hook 'after-save-hook 'delete-trailing-whitespace)
