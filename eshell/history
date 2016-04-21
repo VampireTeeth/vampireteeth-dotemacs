@@ -1,0 +1,8 @@
+pwd
+cd ..
+ls
+pwd
+mkdir .emacs.d/
+cd .emacs.d/
+mkdir evil-leader
+mv evil/evil-leader.el evil-leader/

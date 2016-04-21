@@ -1,0 +1,7 @@
+Exception: STATUS_ACCESS_VIOLATION at eip=6102048B
+eax=067C5C00 ebx=6124AFA4 ecx=75561ABE edx=00236818 esi=00000000 edi=03DCF9F4
+ebp=61020C00 esp=03DCC7C4 program=C:\Users\sliu11\tools\Cygwin\usr\local\emacs\24.5\bin\emacs-24.5.exe, pid 10576, thread main
+cs=0023 ds=002B es=002B fs=0053 gs=002B ss=002B
+Stack trace:
+Frame     Function  Args
+End of stack trace
