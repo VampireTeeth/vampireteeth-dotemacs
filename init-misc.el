@@ -1,0 +1,11 @@
+(defun my:misc-config()
+  ;;(setq debug-on-error t)
+  (setq make-backup-files nil)
+  (setq auto-save-default nil)
+  (add-hook 'after-save-hook 'delete-trailing-whitespace)
+  (setq default-frame-alist '((width . 100)
+			      (height . 55)
+			      (menu-bar-lines . 2)
+			      (font . "Lucida Console"))))
+
+(add-hook 'after-init-hook 'my:misc-config)

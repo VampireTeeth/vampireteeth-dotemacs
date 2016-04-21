@@ -1,0 +1,118 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/TOOLS/maven/apache-maven-3.1.0/" . "conf/")
+ ("/TOOLS/maven/apache-maven-3.0.5/" . "conf/")
+ ("/TOOLS/maven/" . "apache-maven-3.1.0/")
+ ("/TOOLS/" . "maven/")
+ ("c:/Users/sliu11/AppData/Roaming/.emacs.d/" . "evil/")
+ ("/Users/sliu11/MacLeasing/Jira/" . "CAFMLOA-116/")
+ ("/Users/sliu11/MacLeasing/" . "Jira/")
+ ("/Users/sliu11/" . "MacLeasing/")
+ ("/Users/" . "sliu11/")
+ ("/" . "Users/")
+ ("c:/Users/" . "sliu11/")
+ ("c:/Users/sliu11/AppData/Roaming/" . ".emacs.d/")
+ ("c:/Users/sliu11/MacLeasing/Jira/" . "CAFIP-33/")
+ ("c:/Users/sliu11/MacLeasing/" . "Jira/")
+ ("c:/Users/sliu11/" . "MacLeasing/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "c:/Users/sliu11/AppData/Roaming/.emacs.d/"
+ "/Users/sliu11/MacLeasing/Jira/CAFMLOA-116/"
+ "/TOOLS/maven/apache-maven-3.1.0/conf/"
+ "/TOOLS/maven/apache-maven-3.0.5/conf/"
+ "c:/Users/sliu11/MacLeasing/Jira/CAFMLOA-116/"
+ "c:/Users/sliu11/MacLeasing/Jira/CAFIP-33/"
+ "c:/Users/sliu11/AppData/Roaming/.emacs.d/paredit-everywhere/"
+ "c:/Users/sliu11/MacLeasing/Jira/CAFIP-26/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "init-evil.el"
+ "init.el"
+ "FOD - UAT - IL Migration.sql"
+ "settings.xml"
+ "init-misc.el"
+ "sql-gen.el"
+ "qrtz_triggers_time_update.sql"
+ "gl3_gl4_mapping_table_get.sql"
+ "gl3_gl4_mapping_table_rollback.sql"
+ "gl3_gl4_mapping_table_update.sql"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("c:/Users/sliu11/AppData/Roaming/.emacs.d/" (22296 25438 0 0) "undo-tree/" "smartparens-20160411.719.tar" "smartparens/" "popup/" "paredit-everywhere/" "paredit/" "lib/" "init.el" "init-smartparens.el~" "init-smartparens.el" "init-paredit.el~" "init-paredit.el" "init-misc.el~" "init-misc.el" "init-ido.el~" "init-ido.el" "init-highlight-parentheses.el~" "init-highlight-parentheses.el" "init-evil.el" "init-ac.el" "ido.last~" "ido.last" "ido-vertical-mode/" "ido-ubiquitous/" "ido-completing-read+/" "highlight-parentheses/" "evil-leader/" "evil-escape/" "evil/" "eshell/" "dash/" "auto-save-list/" "auto-complete/" "archives/" "ac-comphist.dat" ".gitignore" ".git/" ".#init-evil.el" "%backup%~" "../" "./")
+
+ ("c:/Users/sliu11/AppData/Roaming/.emacs.d/evil/" (22293 42141 0 0) "scripts/" "Makefile" "lib/" "evil.el" "evil-vars.el" "evil-types.el" "evil-tests.el" "evil-states.el" "evil-search.el" "evil-repeat.el" "evil-pkg.el" "evil-maps.el" "evil-macros.el" "evil-leader.el~" "evil-leader.el" "evil-jumps.el" "evil-integration.el" "evil-ex.el" "evil-digraphs.el" "evil-core.el~" "evil-core.el" "evil-common.el" "evil-commands.el" "evil-command-window.el" "doc/" "COPYING" "CHANGES.org" ".hg_archival.txt" ".hgtags" ".gitignore" ".gitattributes" "../" "./")
+
+ ("/TOOLS/maven/apache-maven-3.0.5/conf/" (22296 13304 0 0) "settings.xml.bk" "settings.xml" "../" "./")
+
+ ("/TOOLS/maven/apache-maven-3.1.0/conf/" (22296 13351 0 0) "sonar.secretKey" "settings.xml.bk" "settings.xml" "logging/" "../" "./")
+
+ ("c:/Users/sliu11/MacLeasing/Jira/CAFMLOA-116/" (22295 14644 0 0) "sql-gen.el" "PROD mapping table GL3-GL4 Esanda.xlsx" "PROD mapping table GL3-GL4 Esanda.csv" "New mapping table GL3-GL4 Esanda.xlsx" "insert_sql_gen.el" "gl3_gl4_mapping_table_update.sql" "gl3_gl4_mapping_table_rollback.sql" "gl3_gl4_mapping_table_get.sql" "FOD_20160406.xlsx" "FOD - UAT - IL Migration.sql" "../" "./")
+
+ ("/Users/sliu11/MacLeasing/Jira/CAFMLOA-116/" (22295 14644 0 0) "sql-gen.el" "PROD mapping table GL3-GL4 Esanda.xlsx" "PROD mapping table GL3-GL4 Esanda.csv" "New mapping table GL3-GL4 Esanda.xlsx" "insert_sql_gen.el" "gl3_gl4_mapping_table_update.sql" "gl3_gl4_mapping_table_rollback.sql" "gl3_gl4_mapping_table_get.sql" "FOD_20160406.xlsx" "FOD - UAT - IL Migration.sql" "../" "./")
+
+ ("/Users/sliu11/MacLeasing/Jira/" (22296 6508 0 0) "gl3_import_mapping_table.xlsx" "CAFREL-580/" "CAFMLOA-116/" "CAFIP-33/" "CAFIP-26/" "../" "./")
+
+ ("/TOOLS/maven/apache-maven-3.1.0/" (22248 38719 0 0) "README.txt" "NOTICE.txt" "LICENSE.txt" "lib/" "conf/" "boot/" "bin/" "../" "./")
+
+ ("/TOOLS/maven/apache-maven-3.0.5/" (22248 38763 0 0) "README.txt" "NOTICE.txt" "LICENSE.txt" "lib/" "conf/" "boot/" "bin/" "../" "./")
+
+ ("/TOOLS/maven/" (22248 38775 0 0) "gradle-1.4/" "Desktop.ini" "desktop.ico" "apache-maven-3.1.0/" "apache-maven-3.0.5/" "apache-maven-2.2.1/" "../" "./")
+
+ ("/TOOLS/home/" (22267 8621 0 0) "New folder/" "Desktop.ini" "desktop.ico" ".m2/" "../" "./")
+
+ ("/TOOLS/" (22283 11789 0 0) "weblogic/" "tomcat/" "Shortucts/" "setup-env.bat" "maven/" "jetty/" "jboss-eap-6.1..zip" "jboss-eap-6.1/" "java-tools/" "java/" "jaas2/" "home/" "eclipse/" "Desktop.ini" "desktop.ico" "ant/" "../" "./")
+
+ ("c:/Users/sliu11/MacLeasing/Jira/CAFREL-580/" (22296 8774 0 0) "CRQ-notes.txt~" "CRQ-notes.txt" "../" "./")
+
+ ("c:/Users/sliu11/AppData/Roaming/" (22296 4757 0 0) "TortoiseSVN/" "Sun/" "Subversion/" "SoftGrid Client/" "Notepad++/" "Microsoft/" "Media Center Programs/" "McAfee/" "Macromedia/" "MacquarieGlobalTemplates/" "JetBrains/" "iPass/" "Identities/" "ICAClient/" "dotemacs.zip" "BMC Software/" "Adobe/" ".emacs.d/" "../" "./")
+
+ ("c:/Users/sliu11/MacLeasing/Jira/CAFIP-33/" (22293 28773 0 0) "test_cases.txt" "qrtz_triggers_time_update.sql" "qrtz_triggers_time_rollback.sql" "gvim.exe.stackdump" "emacs-X11.exe.stackdump" "../" "./")
+
+ ("/Users/sliu11/" (22293 49973 0 0) "_vimrc" "_viminfo" "xinit.exe.stackdump" "vimfiles/" "Videos/" "Tracing/" "tools/" "Templates/" "sybase/" "Start Menu/" "service-catalog/" "SendTo/" "Searches/" "Saved Games/" "Recent/" "PrintHood/" "Pictures/" "ntuser.pol" "ntuser.ini" "NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000002.regtrans-ms" "NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000001.regtrans-ms" "NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TM.blf" "ntuser.dat.LOG2" "ntuser.dat.LOG1" "NTUSER.DAT" "new_starter_check_list.txt" "NetHood/" "My Documents/" "Music/" "mcafee dlp quarantined files/" "main.c" "MacLeasing/" "Local Settings/" "Links/" "IntelGraphicsProfiles/" "Favorites/" "Embarcadero/" "eclipse/" "Downloads/" "Documents/" "Desktop/" "cygwin/" "Cookies/" "Contacts/" "bin/" "Application Data/" "AppData/" ".ssh/" ".oracle_jre_usage/" ".m2/" ".IntelliJIdea15/" ".groovy/" ".gitconfig" ".bashrc" ".android/" "../" "./")
+
+ ("c:/Users/sliu11/AppData/Roaming/.emacs.d/highlight-parentheses/" (22293 58496 0 0) "highlight-parentheses.el~" "highlight-parentheses.el" "../" "./")
+
+ ("c:/Users/sliu11/AppData/Roaming/.emacs.d/paredit-everywhere/" (22293 55157 0 0) "paredit-everywhere.el" "../" "./")
+
+ ("c:/Users/sliu11/AppData/Roaming/.emacs.d/paredit/" (22293 55053 0 0) "paredit.el" "../" "./")
+
+ ("c:/Users/sliu11/AppData/Roaming/.emacs.d/dash/" (22293 54852 0 0) "dash.el" "../" "./")
+
+ ("c:/Users/sliu11/tools/emacs/bin/" (22293 53585 0 0) "runemacs.exe" "libXpm.dll" "grep-changelog" "etags.exe" "emacs_backtrace.txt" "emacsclientw.exe" "emacsclient.exe" "emacs.exe" "emacs-24.5.exe" "ebrowse.exe" "ctags.exe" "addpm.exe" "../" "./")
+
+ ("c:/Users/sliu11/" (22293 49973 0 0) "_vimrc" "_viminfo" "xinit.exe.stackdump" "vimfiles/" "Videos/" "Tracing/" "tools/" "Templates/" "sybase/" "Start Menu/" "service-catalog/" "SendTo/" "Searches/" "Saved Games/" "Recent/" "PrintHood/" "Pictures/" "ntuser.pol" "ntuser.ini" "NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000002.regtrans-ms" "NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000001.regtrans-ms" "NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TM.blf" "ntuser.dat.LOG2" "ntuser.dat.LOG1" "NTUSER.DAT" "new_starter_check_list.txt" "NetHood/" "My Documents/" "Music/" "mcafee dlp quarantined files/" "main.c" "MacLeasing/" "Local Settings/" "Links/" "IntelGraphicsProfiles/" "Favorites/" "Embarcadero/" "eclipse/" "Downloads/" "Documents/" "Desktop/" "cygwin/" "Cookies/" "Contacts/" "bin/" "Application Data/" "AppData/" ".ssh/" ".oracle_jre_usage/" ".m2/" ".IntelliJIdea15/" ".groovy/" ".gitconfig" ".bashrc" ".android/" "../" "./")
+
+ ("c:/Users/sliu11/MacLeasing/Jira/CAFIP-26/" (22285 53888 0 0) "tmp1.txt" "tmp.sql" "query4.png" "query3.png" "query2.png" "query1.png" "query-exist.png" "prod_sql_rollback.sql" "prod_sql.sql" "miguat2_sql.sql" "iportal - batch counts.sql" "Esanda Auto NODs updated.xlsx" "emacs-X11.exe.stackdump" "CAFIP-26.sql" "#prod_sql_rollback.sql#" "../" "./")
+
+ ("/Users/sliu11/MacLeasing/Jira/CAFIP-26/" (22285 53888 0 0) "tmp1.txt" "tmp.sql" "query4.png" "query3.png" "query2.png" "query1.png" "query-exist.png" "prod_sql_rollback.sql" "prod_sql.sql" "miguat2_sql.sql" "iportal - batch counts.sql" "Esanda Auto NODs updated.xlsx" "emacs-X11.exe.stackdump" "CAFIP-26.sql" "#prod_sql_rollback.sql#" "../" "./")
+
+ ("/Users/sliu11/MacLeasing/" (22277 52155 0 0) "SVN/" "Projects/" "Jira/" "../" "./")
+
+ ("/Users/" (22285 34469 0 0) "xsliu11/" "sliu11/" "sdumpala/" "Public/" "flewis1/" "desktop.ini" "Default User/" "Default/" "ddezwart/" "chill3/" "All Users/" "ADMINI~1/" "../" "./")
+
+ ("c:/Users/sliu11/bin/" (22273 47312 0 0) "jacob-1.15-M3-x86.dll" "jacob-1.15-M3-x64.dll" "../" "./")
+
+ ("c:/Users/" (22285 34469 0 0) "xsliu11/" "sliu11/" "sdumpala/" "Public/" "flewis1/" "desktop.ini" "Default User/" "Default/" "ddezwart/" "chill3/" "All Users/" "ADMINI~1/" "../" "./")
+
+ ("c:/Users/sliu11/AppData/" (22247 27901 0 0) "Roaming/" "LocalLow/" "Local/" "../" "./")
+
+ ("c:/Users/sliu11/MacLeasing/Jira/" (22288 26924 0 0) "gl3_import_mapping_table.xlsx" "CAFMLOA-116/" "CAFIP-33/" "CAFIP-26/" "../" "./")
+
+ ("c:/Users/sliu11/MacLeasing/" (22277 52155 0 0) "SVN/" "Projects/" "Jira/" "../" "./")
+
+ ("c:/Users/sliu11/tools/" (22293 42077 0 0) "zipdiff-0.4.zip" "zipdiff-0.4/" "emacs/" "Cygwin/" "../" "./")
+
+ ("c:/Users/sliu11/tools/emacs/" (22293 42109 0 0) "var/" "share/" "libexec/" "emacs-24.5-bin-i686-mingw32.zip" "bin/" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
