@@ -8,7 +8,7 @@
   (set-face-underline hl-line-face nil)
   (setq make-backup-files nil)
   (setq auto-save-default nil)
-  (setq ediff-split-window-function 'split-window-vertically)
+  (setq ediff-split-window-function 'split-window-horizontally)
   (add-hook 'after-save-hook 'delete-trailing-whitespace)
   (setq default-frame-alist '((width . 100)
 			      (height . 55)
