@@ -1,3 +1,5 @@
+(require 'subr-x)
+
 (defun my:replace-curr-line-with (new-line)
   (let ((begin-point (line-beginning-position))
 	(end-point (line-end-position)))
@@ -13,8 +15,6 @@
   (let ((delim-rgx (if delim-regex delim-regex ",[[:space:]]*")))
     (let ((cols-seq (split-string cols-line delim-rgx))
 	  (vals-seq (split-string vals-line delim-rgx))
-	  (begin-point (line-beginning-position))
-	  (end-point (line-end-position))
 	  (starts-with-p (lambda (rgx val) (string-match rgx val)))
 	  idx-to-q
 	  cols-after-unquote
@@ -35,7 +35,7 @@
       (message "%s" new-line)
 
       ;;Replace the current line with the new-line
-      (replace-curr-line-with new-line)
+      (my:replace-curr-line-with new-line)
     )))
 
 
@@ -51,17 +51,16 @@
 	(setq line-num (1+ line-num))))))
 
 
-(defun my:insert-sql-gen ()
-  (interactive)
+(defun my:insert-sql-gen (table-name)
+  (interactive "sTable name:")
   (save-excursion
-    (let (table-name cols-line))
-    (setq table-name (get-curr-line))
-    (forward-line)
-    (setq cols-line (get-curr-line))
-    (forward-line)
-    (for-each-line (lambda ()
-		     (if (> (line-end-position) (line-beginning-position))
-			 (gen-insert-sql-line
-			  table-name cols-line (get-curr-line) ",[[:space:]]*"))))))
+    (let ((cols-line (my:get-curr-line)))
+      (message "%s" cols-line)
+      (forward-line)
+      (my:for-each-line (lambda ()
+			  (let ((vals-line (string-trim (my:get-curr-line))))
+			    (if (not (string-blank-p vals-line))
+				(my:gen-insert-sql-line table-name cols-line vals-line ",[[:space:]]*"))))))))
 
 
+(provide 'sql-gen)
