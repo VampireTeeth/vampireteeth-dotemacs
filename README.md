@@ -1,3 +1,3 @@
 # vampireteeth-dotemacs
-My own dotemacs woth manual configurations
+My own dotemacs with manual configurations
 My static dotemacs file
