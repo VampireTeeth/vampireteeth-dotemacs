@@ -1,7 +1,11 @@
+(require 'sql-gen)
+
 (defun my:misc-config()
   ;;(setq debug-on-error t)
   (global-hl-line-mode)
   (set-cursor-color "LightGreen")
+  (set-face-background hl-line-face "gray5")
+  (set-face-underline hl-line-face nil)
   (setq make-backup-files nil)
   (setq auto-save-default nil)
   (add-hook 'after-save-hook 'delete-trailing-whitespace)
