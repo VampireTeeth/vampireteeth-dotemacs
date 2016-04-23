@@ -23,8 +23,9 @@
 
 ;; ----- ido-work-directory-list -----
 (
- "/home/steven/.emacs.d/"
+ "/home/steven/"
  "/home/steven/.emacs.d/lib/"
+ "/home/steven/.emacs.d/"
  "c:/Users/sliu11/AppData/Roaming/.emacs.d/"
  "/Users/sliu11/MacLeasing/Jira/CAFMLOA-116/"
  "/TOOLS/maven/apache-maven-3.1.0/conf/"
@@ -37,21 +38,21 @@
 
 ;; ----- ido-work-file-list -----
 (
+ ".profile"
+ "sql-gen.el"
  "init-misc.el"
  "init.el"
  "init-ac.el"
- "sql-gen.el"
  "init-evil.el"
  "FOD - UAT - IL Migration.sql"
  "settings.xml"
  "qrtz_triggers_time_update.sql"
  "gl3_gl4_mapping_table_get.sql"
- "gl3_gl4_mapping_table_rollback.sql"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/steven/.emacs.d/" (22298 48834 935018 0) "README.md" "popup/" "init-ido.el" "smartparens/" "init-highlight-parentheses.el" "init.el" ".gitignore" "eshell/" "ac-comphist.dat" "paredit-everywhere/" "init-paredit.el" "ido-ubiquitous/" "ido-completing-read+/" "undo-tree/" "highlight-parentheses/" "./" "ido-vertical-mode/" ".git/" "ido.last" "../" "dash/" "lib/" "init-smartparens.el" "auto-complete/" "init-evil.el" "evil/" "init-ac.el" "evil-escape/" "init-misc.el" "ido.last~" "paredit/" "evil-leader/")
+ ("/home/steven/.emacs.d/" (22298 49331 563208 0) "README.md" "popup/" "init-ido.el" "smartparens/" "init-highlight-parentheses.el" "init.el" ".gitignore" "eshell/" "ac-comphist.dat" "paredit-everywhere/" "init-paredit.el" "ido-ubiquitous/" "ido-completing-read+/" "undo-tree/" "highlight-parentheses/" "./" "ido-vertical-mode/" ".git/" "ido.last" "../" "dash/" "lib/" "init-smartparens.el" "auto-complete/" "init-evil.el" "evil/" "auto-save-list/" "init-ac.el" "evil-escape/" "init-misc.el" "ido.last~" "paredit/" "evil-leader/")
 
  ("/home/steven/.emacs.d/lib/" (22298 48749 912527 999000) "./" "../" "sql-gen.el")
 
