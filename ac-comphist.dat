@@ -1,4 +1,16 @@
-((("evil-escape-key-sequence" .
+((("set-frame-font" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  (":name" .
+   [0 0 0 0 1])
+  ("font-spec" .
+   [0 0 0 0 0 0 0 0 1])
+  ("find-font" .
+   [1 0 0 0 0 0 0 0 1])
+  ("find" .
+   [1 0 0 0])
+  ("cond" .
+   [1 0 0 0])
+  ("evil-escape-key-sequence" .
    [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
   ("evil-escape-p" .
    [0 0 0 0 0 0 0 0 0 0 0 0 1])

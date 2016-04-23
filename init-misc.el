@@ -10,9 +10,15 @@
   (setq auto-save-default nil)
   (setq ediff-split-window-function 'split-window-horizontally)
   (add-hook 'after-save-hook 'delete-trailing-whitespace)
+
   (setq default-frame-alist '((width . 100)
-			      (height . 55)
-			      (menu-bar-lines . 2)
-			      (font . "Lucida Console"))))
+			      (height . 35)
+			      (menu-bar-lines . 2)))
+  (cond
+   ((find-font (font-spec :name "Dejavu Sans Mono"))
+    (set-frame-font "Dejavu Sans Mono-12"))
+   ((find-font (font-spec :name "Lucida Console"))
+    (set-frame-font "Lucida Console-12"))))
+
 
 (add-hook 'after-init-hook 'my:misc-config)

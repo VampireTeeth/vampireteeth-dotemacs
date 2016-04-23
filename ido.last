@@ -2,6 +2,8 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/steven/.emacs.d/" . "lib/")
+ ("/home/steven/" . ".emacs.d/")
  ("/TOOLS/maven/apache-maven-3.1.0/" . "conf/")
  ("/TOOLS/maven/apache-maven-3.0.5/" . "conf/")
  ("/TOOLS/maven/" . "apache-maven-3.1.0/")
@@ -21,6 +23,8 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/steven/.emacs.d/"
+ "/home/steven/.emacs.d/lib/"
  "c:/Users/sliu11/AppData/Roaming/.emacs.d/"
  "/Users/sliu11/MacLeasing/Jira/CAFMLOA-116/"
  "/TOOLS/maven/apache-maven-3.1.0/conf/"
@@ -33,20 +37,26 @@
 
 ;; ----- ido-work-file-list -----
 (
- "init-evil.el"
+ "init-misc.el"
  "init.el"
+ "init-ac.el"
+ "sql-gen.el"
+ "init-evil.el"
  "FOD - UAT - IL Migration.sql"
  "settings.xml"
- "init-misc.el"
- "sql-gen.el"
  "qrtz_triggers_time_update.sql"
  "gl3_gl4_mapping_table_get.sql"
  "gl3_gl4_mapping_table_rollback.sql"
- "gl3_gl4_mapping_table_update.sql"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/home/steven/.emacs.d/" (22298 48834 935018 0) "README.md" "popup/" "init-ido.el" "smartparens/" "init-highlight-parentheses.el" "init.el" ".gitignore" "eshell/" "ac-comphist.dat" "paredit-everywhere/" "init-paredit.el" "ido-ubiquitous/" "ido-completing-read+/" "undo-tree/" "highlight-parentheses/" "./" "ido-vertical-mode/" ".git/" "ido.last" "../" "dash/" "lib/" "init-smartparens.el" "auto-complete/" "init-evil.el" "evil/" "init-ac.el" "evil-escape/" "init-misc.el" "ido.last~" "paredit/" "evil-leader/")
+
+ ("/home/steven/.emacs.d/lib/" (22298 48749 912527 999000) "./" "../" "sql-gen.el")
+
+ ("/home/steven/" (22298 48762 590864 0) ".gconf/" ".local/" ".vboxclient-draganddrop.pid" ".java_history" "tmp/" ".m2/" ".gnome2/" ".dbus/" ".keychain/" ".gnome2_private/" ".mongorc.js" "Public/" ".vboxclient-display.pid" ".gnome/" ".Space2Ctrl.log" ".oracle_jre_usage/" "Templates/" "Documents/" "magnars-dotemacs/" "dotemacs/" "./" ".mozilla/" "Videos/" "vampireteeth-dotemacs/" ".xmodmap" ".lesshst" ".lein/" "Pictures/" ".config/" "../" "Downloads/" ".profile" ".bashrc" ".cache/" ".smex-items" ".vboxclient-seamless.pid" ".gstreamer-0.10/" ".bash_history" ".ssh/" ".ICEauthority" ".pki/" "tools/" ".env_vars" ".gnupg/" ".bash_logout" ".vboxclient-clipboard.pid" "Desktop/" ".java/" "Music/" ".emacs.d/" "dev/")
+
  ("c:/Users/sliu11/AppData/Roaming/.emacs.d/" (22296 25438 0 0) "undo-tree/" "smartparens-20160411.719.tar" "smartparens/" "popup/" "paredit-everywhere/" "paredit/" "lib/" "init.el" "init-smartparens.el~" "init-smartparens.el" "init-paredit.el~" "init-paredit.el" "init-misc.el~" "init-misc.el" "init-ido.el~" "init-ido.el" "init-highlight-parentheses.el~" "init-highlight-parentheses.el" "init-evil.el" "init-ac.el" "ido.last~" "ido.last" "ido-vertical-mode/" "ido-ubiquitous/" "ido-completing-read+/" "highlight-parentheses/" "evil-leader/" "evil-escape/" "evil/" "eshell/" "dash/" "auto-save-list/" "auto-complete/" "archives/" "ac-comphist.dat" ".gitignore" ".git/" ".#init-evil.el" "%backup%~" "../" "./")
 
  ("c:/Users/sliu11/AppData/Roaming/.emacs.d/evil/" (22293 42141 0 0) "scripts/" "Makefile" "lib/" "evil.el" "evil-vars.el" "evil-types.el" "evil-tests.el" "evil-states.el" "evil-search.el" "evil-repeat.el" "evil-pkg.el" "evil-maps.el" "evil-macros.el" "evil-leader.el~" "evil-leader.el" "evil-jumps.el" "evil-integration.el" "evil-ex.el" "evil-digraphs.el" "evil-core.el~" "evil-core.el" "evil-common.el" "evil-commands.el" "evil-command-window.el" "doc/" "COPYING" "CHANGES.org" ".hg_archival.txt" ".hgtags" ".gitignore" ".gitattributes" "../" "./")
