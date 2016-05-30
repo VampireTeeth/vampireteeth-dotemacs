@@ -18,7 +18,12 @@
    ((find-font (font-spec :name "Dejavu Sans Mono"))
     (set-frame-font "Dejavu Sans Mono-12"))
    ((find-font (font-spec :name "Lucida Console"))
-    (set-frame-font "Lucida Console-12"))))
+    (set-frame-font "Lucida Console-12")))
+  (setq-default indent-tabs-mode nil)
+  (setq-default tab-width 4)
+  (setq c-basic-offset 4)
+  (load-theme 'clarity t t)
+  (enable-theme 'clarity))
 
 
 (add-hook 'after-init-hook 'my:misc-config)
