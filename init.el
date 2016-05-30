@@ -23,6 +23,9 @@
 
 (add-to-list 'load-path "~/.emacs.d/auto-complete")
 
+;;(add-to-list 'load-path "~/.emacs.d/replace-colorthemes")
+(add-to-list 'custom-theme-load-path (file-name-as-directory "~/.emacs.d/replace-colorthemes"))
+
 (load-file "~/.emacs.d/init-evil.el")
 (load-file "~/.emacs.d/init-ido.el")
 (load-file "~/.emacs.d/init-paredit.el")
@@ -30,14 +33,6 @@
 (load-file "~/.emacs.d/init-ac.el")
 (load-file "~/.emacs.d/init-misc.el")
 
-(custom-set-variables
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(ansi-color-faces-vector
-   [default default default italic underline success warning error])
- '(custom-enabled-themes (quote (wombat))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
