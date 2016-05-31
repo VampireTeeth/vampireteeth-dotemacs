@@ -60,7 +60,7 @@
       (my:for-each-line (lambda ()
 			  (let ((vals-line (string-trim (my:get-curr-line))))
 			    (if (not (string-blank-p vals-line))
-				(my:gen-insert-sql-line table-name cols-line vals-line ",[[:space:]]*"))))))))
+                    (my:gen-insert-sql-line table-name cols-line vals-line ",[[:space:]]*"))))))))
 
 
 (provide 'sql-gen)

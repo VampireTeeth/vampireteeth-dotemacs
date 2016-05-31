@@ -1,214 +1,226 @@
-((("funcall" .
-   [1 0 0 0 0 0 1])
-  ("for-each-line" .
-   [0 0 0 0 0 0 0 0 1 0 0 0 0])
-  ("1+" .
-   [2 0])
-  ("number-to-string" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3])
-  ("str" .
-   [1 0 0])
-  ("forward-line" .
-   [0 0 0 0 0 0 0 0 0 1 0 0])
-  ("max-line-num" .
-   [0 0 0 0 0 0 0 2 0 0 0 0])
-  ("line-num" .
-   [3 0 0 0 0 0 0 2])
-  ("<=" .
-   [1 0])
-  ("while" .
-   [1 0 0 0 0])
-  ("point-max" .
-   [0 0 0 0 0 0 0 1 0])
-  ("line-number-at-pos" .
-   [0 0 0 0 0 0 0 1 1 0 0 0 0 1 0 0 0 2])
-  ("current-local-map" .
-   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
-  ("current-word" .
-   [0 0 0 0 0 0 1 0 0 0 0 0])
-  ("concat" .
-   [1 0 0 0 0 0])
-  ("buffer-end" .
-   [0 0 0 0 0 0 0 0 0 1])
-  ("bufferp" .
-   [0 0 0 0 0 0 1])
-  ("defun*" .
-   [0 0 0 0 0 1])
-  ("delete-region" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 2])
-  ("delete" .
-   [3 0 0 0 0 0])
-  ("new-line" .
-   [3 0 0 0 0 1 0 1])
-  ("identity" .
-   [1 0 0 0 0 0 0 0])
-  ("mapconcat" .
-   [0 0 0 0 0 0 0 0 1])
-  ("quoted-" .
-   [0 0 0 0 0 0 1])
-  ("string" .
-   [1 0 0 0 0 1])
-  ("cons" .
-   [1 0 0 0])
-  ("quoted-fields" .
-   [0 0 0 0 0 0 0 0 1 2 0 0 0])
-  ("field" .
-   [2 0 0 0 0])
-  ("dolist" .
-   [0 0 0 0 0 1])
-  ("quote-fields" .
-   [0 0 0 0 0 0 0 0 2 0 0 1])
-  ("fields" .
-   [2 0 0 0 0 0])
-  ("message" .
-   [2 0 0 0 0 0 1])
-  ("let" .
-   [7 0 0])
-  ("delim-regex" .
-   [0 0 0 0 0 0 0 0 0 1 0])
-  ("split-string" .
-   [0 0 0 0 0 0 0 0 0 0 0 1])
-  ("line" .
-   [2 0 0 0])
-  ("c" .
-   [2])
-  ("defun" .
-   [4 0 0 0 0])
-  ("buffer-substring-no-properties" .
-   [0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2])
-  ("replace-string" .
+((("sayHello" .
+   [0 0 0 0 1 0 0 0])
+  ("console" .
+   [2 0 0 0 0 0 0])
+  ("set-frame-font" .
    [0 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("save-excursion" .
-   [0 0 0 0 0 0 0 3 0 0 0 0 0 1])
-  ("insert-sql-line-gen" .
-   [0 0 0 0 0 0 0 0 0 0 1 1 0 0 1 0 0 0 0])
-  ("insert" .
-   [1 0 0 0 0 1])
-  ("start-point" .
-   [1 0 0 0 0 0 0 2 0 0 4])
-  ("curr-point" .
-   [0 0 0 0 0 0 1 0 0 0])
-  ("end-point" .
-   [0 0 0 0 0 5 1 0 0])
-  ("curr-line" .
-   [4 0 0 0 0 2 2 0 3])
-  ("insert-sql-gen" .
-   [2 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("point" .
-   [3 0 0 0 0])
-  ("p1" .
-   [1 0])
-  ("line-end-position" .
-   [0 0 0 0 0 0 0 3 2 0 0 0 0 0 0 0 0])
-  ("interactive" .
-   [0 0 0 0 0 1 1 3 0 0 1])
-  ("line-beginning-position" .
-   [0 0 0 0 0 0 0 5 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
-  ("p2" .
-   [1 0])
-  ("goto-char" .
-   [0 0 0 0 0 0 0 0 4])
-  ("insert-string" .
-   [0 0 0 0 0 0 0 0 0 0 1 0 0])
-  ("insert-buffer-substring" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
-  ("debug-on-error" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("set" .
-   [3 0 0])
-  ("buffer" .
-   [0 0 0 0 0 1])
-  ("highlight-parentheses" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("prog-mode-hook" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("ido-vertical-mode" .
-   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("i" .
-   [1])
-  ("ido-ubiquitous" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("require" .
-   [1 0 0 0 0 0 2])
-  ("evil-quit" .
-   [0 0 0 0 0 0 0 0 1])
-  ("evil-type" .
-   [0 0 0 0 0 0 0 0 1])
-  ("define-key" .
-   [0 0 0 0 0 0 0 0 0 2])
-  ("defalias" .
-   [0 0 0 0 0 0 1 0])
-  ("evil" .
-   [1 0 0 0])
-  ("delq" .
-   [0 1 0 0])
-  ("evil-normal-state-map" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("evil-mode" .
-   [0 0 0 0 0 0 0 0 1])
-  ("evil-scroll-down" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("evil-scroll-up" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("evil-scroll-left" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0])
-  ("evil-scroll-right" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0])
-  ("evil-window-down" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("evil-window-up" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("evil-window-left" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0])
-  ("evil-window-right" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0])
-  ("setq" .
-   [10 0 0 1])
-  ("default-frame-alist" .
-   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
-  ("menu" .
-   [0 0 0 1])
-  ("menu-bar-lines" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("font" .
-   [2 0 0 0])
-  ("init-file-user" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("remove-hook" .
-   [0 0 0 0 0 0 0 0 0 0 1])
-  ("after-save-hook" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("init-default-frame-alist" .
-   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("add-hook" .
-   [0 0 0 0 0 0 0 2])
-  ("progn" .
-   [1 0 0 0 0])
-  ("programming" .
-   [0 0 0 0 0 0 0 1 0 0 0])
-  ("C-kp-0" .
-   [1 0 0 0 0 0])
-  ("evil-escape" .
-   [1 0 0 0 0 0 0 0 0 0 0])
-  ("evil-esc" .
-   [0 0 0 0 0 0 0 1])
-  ("evil-escape-mode" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("setq-default" .
-   [0 0 0 0 0 0 0 1 0 0 0 0])
-  ("evil-escape-p" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("evil-escape-key-sequence" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
-  ("cond" .
-   [1 0 0 0])
-  ("find" .
-   [1 0 0 0])
-  ("find-font" .
-   [1 0 0 0 0 0 0 0 1])
-  ("font-spec" .
-   [0 0 0 0 0 0 0 0 1])
   (":name" .
    [0 0 0 0 1])
-  ("set-frame-font" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 1])))
+  ("font-spec" .
+   [0 0 0 0 0 0 0 0 1])
+  ("find-font" .
+   [1 0 0 0 0 0 0 0 1])
+  ("find" .
+   [1 0 0 0])
+  ("cond" .
+   [1 0 0 0])
+  ("evil-escape-key-sequence" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("evil-escape-p" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("setq-default" .
+   [0 0 0 0 0 0 0 1 0 0 0 0])
+  ("evil-escape-mode" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("evil-esc" .
+   [0 0 0 0 0 0 0 1])
+  ("evil-escape" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("C-kp-0" .
+   [1 0 0 0 0 0])
+  ("programming" .
+   [0 0 0 0 0 0 0 1 0 0 0])
+  ("progn" .
+   [1 0 0 0 0])
+  ("add-hook" .
+   [0 0 0 0 0 0 0 2])
+  ("init-default-frame-alist" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("after-save-hook" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("remove-hook" .
+   [0 0 0 0 0 0 0 0 0 0 1])
+  ("init-file-user" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("font" .
+   [2 0 0 0])
+  ("menu-bar-lines" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("menu" .
+   [0 0 0 1])
+  ("default-frame-alist" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("setq" .
+   [10 0 0 1])
+  ("evil-window-right" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0])
+  ("evil-window-left" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0])
+  ("evil-window-up" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("evil-window-down" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("evil-scroll-right" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0])
+  ("evil-scroll-left" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0])
+  ("evil-scroll-up" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("evil-scroll-down" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("evil-mode" .
+   [0 0 0 0 0 0 0 0 1])
+  ("evil-normal-state-map" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("delq" .
+   [0 1 0 0])
+  ("evil" .
+   [1 0 0 0])
+  ("defalias" .
+   [0 0 0 0 0 0 1 0])
+  ("define-key" .
+   [0 0 0 0 0 0 0 0 0 2])
+  ("evil-type" .
+   [0 0 0 0 0 0 0 0 1])
+  ("evil-quit" .
+   [0 0 0 0 0 0 0 0 1])
+  ("require" .
+   [1 0 0 0 0 0 2])
+  ("ido-ubiquitous" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("i" .
+   [1])
+  ("ido-vertical-mode" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("prog-mode-hook" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("highlight-parentheses" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("buffer" .
+   [0 0 0 0 0 1])
+  ("set" .
+   [3 0 0])
+  ("debug-on-error" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("insert-buffer-substring" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
+  ("insert-string" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0])
+  ("goto-char" .
+   [0 0 0 0 0 0 0 0 4])
+  ("p2" .
+   [1 0])
+  ("line-beginning-position" .
+   [0 0 0 0 0 0 0 5 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
+  ("interactive" .
+   [0 0 0 0 0 1 1 3 0 0 1])
+  ("line-end-position" .
+   [0 0 0 0 0 0 0 3 2 0 0 0 0 0 0 0 0])
+  ("p1" .
+   [1 0])
+  ("point" .
+   [3 0 0 0 0])
+  ("insert-sql-gen" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("curr-line" .
+   [4 0 0 0 0 2 2 0 3])
+  ("end-point" .
+   [0 0 0 0 0 5 1 0 0])
+  ("curr-point" .
+   [0 0 0 0 0 0 1 0 0 0])
+  ("start-point" .
+   [1 0 0 0 0 0 0 2 0 0 4])
+  ("insert" .
+   [1 0 0 0 0 1])
+  ("insert-sql-line-gen" .
+   [0 0 0 0 0 0 0 0 0 0 1 1 0 0 1 0 0 0 0])
+  ("save-excursion" .
+   [0 0 0 0 0 0 0 3 0 0 0 0 0 1])
+  ("replace-string" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("buffer-substring-no-properties" .
+   [0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2])
+  ("defun" .
+   [4 0 0 0 0])
+  ("c" .
+   [2])
+  ("line" .
+   [2 0 0 0])
+  ("split-string" .
+   [0 0 0 0 0 0 0 0 0 0 0 1])
+  ("delim-regex" .
+   [0 0 0 0 0 0 0 0 0 1 0])
+  ("let" .
+   [7 0 0])
+  ("message" .
+   [2 0 0 0 0 0 1])
+  ("fields" .
+   [2 0 0 0 0 0])
+  ("quote-fields" .
+   [0 0 0 0 0 0 0 0 2 0 0 1])
+  ("dolist" .
+   [0 0 0 0 0 1])
+  ("field" .
+   [2 0 0 0 0])
+  ("quoted-fields" .
+   [0 0 0 0 0 0 0 0 1 2 0 0 0])
+  ("cons" .
+   [1 0 0 0])
+  ("string" .
+   [1 0 0 0 0 1])
+  ("quoted-" .
+   [0 0 0 0 0 0 1])
+  ("mapconcat" .
+   [0 0 0 0 0 0 0 0 1])
+  ("identity" .
+   [1 0 0 0 0 0 0 0])
+  ("new-line" .
+   [3 0 0 0 0 1 0 1])
+  ("delete" .
+   [3 0 0 0 0 0])
+  ("delete-region" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 2])
+  ("defun*" .
+   [0 0 0 0 0 1])
+  ("bufferp" .
+   [0 0 0 0 0 0 1])
+  ("buffer-end" .
+   [0 0 0 0 0 0 0 0 0 1])
+  ("concat" .
+   [1 0 0 0 0 0])
+  ("current-word" .
+   [0 0 0 0 0 0 1 0 0 0 0 0])
+  ("current-local-map" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
+  ("line-number-at-pos" .
+   [0 0 0 0 0 0 0 1 1 0 0 0 0 1 0 0 0 2])
+  ("point-max" .
+   [0 0 0 0 0 0 0 1 0])
+  ("while" .
+   [1 0 0 0 0])
+  ("<=" .
+   [1 0])
+  ("line-num" .
+   [3 0 0 0 0 0 0 2])
+  ("max-line-num" .
+   [0 0 0 0 0 0 0 2 0 0 0 0])
+  ("forward-line" .
+   [0 0 0 0 0 0 0 0 0 1 0 0])
+  ("str" .
+   [1 0 0])
+  ("number-to-string" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3])
+  ("1+" .
+   [2 0])
+  ("for-each-line" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("funcall" .
+   [1 0 0 0 0 0 1])
+  ("load-theme" .
+   [0 0 0 0 0 0 0 0 0 1])
+  ("clear" .
+   [1 0 0 0 0])
+  ("enable-theme" .
+   [0 0 0 0 0 0 0 0 0 0 0 1])
+  ("clarity" .
+   [1 0 0 0 0 0 0])))
