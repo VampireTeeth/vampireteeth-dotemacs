@@ -98,14 +98,14 @@
 ;; ----- ido-work-directory-list -----
 (
  "c:/Users/sliu11/AppData/Roaming/.emacs.d/"
+ "c:/Users/sliu11/MacLeasing/Projects/iPortal/iportal/src/main/java/au/com/iportal/action/contract/"
+ "c:/Users/sliu11/MacLeasing/Projects/iPortal/iportal/"
+ "c:/Users/sliu11/MacLeasing/Projects/iPortal/"
  "c:/Users/sliu11/AppData/Roaming/.emacs.d/emacs-eclim/"
  "c:/Users/sliu11/AppData/Roaming/.emacs.d/evil-leader/"
  "c:/Users/sliu11/MacLeasing/Projects/iPortal/iportal/src/main/java/au/com/iportal/action/"
- "c:/Users/sliu11/MacLeasing/Projects/iPortal/"
  "c:/Users/sliu11/AppData/Roaming/.emacs.d/ggtags/"
- "c:/Users/sliu11/MacLeasing/Projects/iPortal/iportal/src/main/java/au/com/iportal/action/contract/"
  "c:/Users/sliu11/MacLeasing/Projects/iPortal/iportal-config/"
- "c:/Users/sliu11/MacLeasing/Projects/iPortal/iportal/"
  "c:/Users/sliu11/tools/eclipse-extensions/color-theme/"
  "c:/Users/sliu11/MacLeasing/Jira/CAFIP-26/"
  "c:/Users/sliu11/MacLeasing/Projects/iPortal/iportal/src/main/sql/procs/"
@@ -152,22 +152,26 @@
 ;; ----- ido-work-file-list -----
 (
  "init-emacs-eclim.el"
+ "init-misc.el"
+ "init.el"
+ "ContractDetailsAction.java"
+ "pom.xml"
  "eclim-java.el"
  "evil-leader.el"
  "eclim-completion.el"
  "eclim-maven.el"
  "eclim-java-run.el"
- "eclim-debug.el"
- "eclim-project.el"
- "init-evil.el"
- "eclim.el"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("c:/Users/sliu11/MacLeasing/Projects/iPortal/iportal/src/main/java/au/com/iportal/action/" (22380 57131 0 0) "search/" "package.properties" "login/" "letters/" "error/" "directdebit/" "customer/" "contract/" "AbstractBaseAction.java" "../" "./")
+ ("c:/Users/sliu11/AppData/Roaming/.emacs.d/" (22381 51125 0 0) "yasnippet/" "web-beautify/" "undo-tree/" "tutorial/" "smartparens/" "s/" "replace-colorthemes-master.zip" "replace-colorthemes/" "README.md" "popup/" "paredit-everywhere/" "paredit/" "multiple-cursors/" "lib/" "js2-refactor/" "js2-mode/" "init.el" "init-yasnippet.el" "init-web-beautify.el" "init-smartparens.el" "init-s.el" "init-paredit.el" "init-multiple-cursors.el" "init-misc.el" "init-js.el" "init-ido.el" "init-highlight-parentheses.el" "init-ggtags.el" "init-evil.el" "init-emacs-eclim.el" "init-ac.el" "init-ac-nxml.el" "ido.last" "ido-vertical-mode/" "ido-ubiquitous/" "ido-completing-read+/" "highlight-parentheses/" "ggtags/" "evil-leader/" "evil-escape/" "evil/" "eshell/" "emacs-eclim/" "dash/" "auto-save-list/" "auto-complete-nxml/" "auto-complete/" "ac-comphist.dat" ".mc-lists.el" ".gitignore" ".git/" "../" "./")
 
- ("c:/Users/sliu11/AppData/Roaming/.emacs.d/" (22381 47966 0 0) "yasnippet/" "web-beautify/" "undo-tree/" "tutorial/" "smartparens/" "s/" "replace-colorthemes-master.zip" "replace-colorthemes/" "README.md" "popup/" "paredit-everywhere/" "paredit/" "multiple-cursors/" "lib/" "js2-refactor/" "js2-mode/" "init.el" "init-yasnippet.el" "init-web-beautify.el" "init-smartparens.el" "init-s.el" "init-paredit.el" "init-multiple-cursors.el" "init-misc.el" "init-js.el" "init-ido.el" "init-highlight-parentheses.el" "init-ggtags.el" "init-evil.el" "init-emacs-eclim.el" "init-ac.el" "init-ac-nxml.el" "ido.last" "ido-vertical-mode/" "ido-ubiquitous/" "ido-completing-read+/" "highlight-parentheses/" "ggtags/" "evil-leader/" "evil-escape/" "evil/" "eshell/" "emacs-eclim/" "dash/" "auto-save-list/" "auto-complete-nxml/" "auto-complete/" "ac-comphist.dat" ".mc-lists.el" ".gitignore" ".git/" "../" "./")
+ ("c:/Users/sliu11/MacLeasing/Projects/iPortal/iportal/src/main/java/au/com/iportal/action/contract/" (22381 51456 0 0) "RelatedPartyAction.java" "PayoutQuoteDisplayTagAction.java" "PayoutQuoteAction.java" "PaymentStructureAction.java" "PaymentScheduleAction.java" "PaymentHistoryAction.java" "ContractMessageDisplayTagAction.java" "ContractMessageAction.java" "ContractMessageAction-validation.xml" "ContractDetailsAction.java" "AssetDetailsAction.java" ".#ContractDetailsAction.java" "../" "./")
+
+ ("c:/Users/" (22343 46120 0 0) "xsliu11/" "xbmills1/" "sliu11/" "sdumpala/" "Public/" "flewis1/" "desktop.ini" "Default User/" "Default/" "ddezwart/" "cyg_server/" "cygwin_server/" "chill3/" "All Users/" "ADMINI~1/" "../" "./")
+
+ ("c:/Users/sliu11/MacLeasing/Projects/iPortal/iportal/src/main/java/au/com/iportal/action/" (22380 57131 0 0) "search/" "package.properties" "login/" "letters/" "error/" "directdebit/" "customer/" "contract/" "AbstractBaseAction.java" "../" "./")
 
  ("c:/Users/sliu11/AppData/Roaming/.emacs.d/evil-leader/" (22349 27411 0 0) "evil-leader.el" "../" "./")
 
@@ -176,8 +180,6 @@
  ("c:/Users/sliu11/MacLeasing/Projects/iPortal/src/" (22313 40284 0 0) "../" "./")
 
  ("c:/Users/sliu11/" (22380 55401 0 0) "_vimrc" "_viminfo" "workspace/" "vimfiles/" "Videos/" "Tracing/" "tools/" "Templates/" "sybase/" "Start Menu/" "service-catalog/" "SendTo/" "Searches/" "Saved Games/" "Recent/" "PrintHood/" "Pictures/" "personal/" "ntuser.pol" "ntuser.ini" "NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000002.regtrans-ms" "NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000001.regtrans-ms" "NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TM.blf" "ntuser.dat.LOG2" "ntuser.dat.LOG1" "NTUSER.DAT" "new_starter_check_list.txt" "NetHood/" "My Documents/" "Music/" "mcafee dlp quarantined files/" "main.c" "MacLeasing/" "Local Settings/" "Links/" "IntelGraphicsProfiles/" "Favorites/" "Embarcadero/" "eclipse/" "Downloads/" "Documents/" "dev/" "Desktop/" "cygwin/" "Cookies/" "Contacts/" "bin/" "Application Data/" "AppData/" ".vimrc" ".ssh/" ".oracle_jre_usage/" ".net.sf.jadclipse/" ".m2/" ".IntelliJIdea15/" ".ideavimrc" ".IdeaIC2016/" ".groovy/" ".gitconfig" ".eclipse/" ".eclim/" ".bshrc" ".bashrc" ".android/" "../" "./")
-
- ("c:/Users/sliu11/MacLeasing/Projects/iPortal/iportal/src/main/java/au/com/iportal/action/contract/" (22380 52185 0 0) "RelatedPartyAction.java" "PayoutQuoteDisplayTagAction.java" "PayoutQuoteAction.java" "PaymentStructureAction.java" "PaymentScheduleAction.java" "PaymentHistoryAction.java" "ContractMessageDisplayTagAction.java" "ContractMessageAction.java" "ContractMessageAction-validation.xml" "ContractDetailsAction.java" "AssetDetailsAction.java" "../" "./")
 
  ("c:/Users/sliu11/MacLeasing/Projects/iPortal/" (22380 51494 0 0) "src/" "serverConfig/" "pom.xml" "iportal-root.iml" "iportal-config/" "iportal/" "GTAGS" "GRTAGS" "GPATH" "bin/" ".settings/" ".project" ".idea/" ".gitignore" ".git/" ".classpath" "../" "./")
 
@@ -362,8 +364,6 @@
  ("/TOOLS/maven/apache-maven-3.1.0/conf/" (22359 25221 0 0) "sonar.secretKey" "settings.xml.bk" "settings.xml" "logging/" "../" "./")
 
  ("/Users/sliu11/MacLeasing/Projects/fort-batch/" (22362 2046 0 0) "target/" "src/" "pom.xml" "deploy-uat.sh" "dependency-reduced-pom.xml" "config/" ".settings/" ".project" ".gitignore" ".git/" ".classpath" "../" "./")
-
- ("c:/Users/sliu11/MacLeasing/Projects/fort-batch/" (22362 2046 0 0) "target/" "src/" "pom.xml" "deploy-uat.sh" "dependency-reduced-pom.xml" "config/" ".settings/" ".project" ".gitignore" ".git/" ".classpath" "../" "./")
 )
 
 ;; ----- ido-unc-hosts-cache -----
