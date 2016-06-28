@@ -102,7 +102,7 @@
   (cl-case command
     (interactive (company-begin-backend 'company-emacs-eclim))
     (prefix (let ((start (and eclim-mode
-                              (eclim--accepted-p (buffer-file-name))
+                              ;;(eclim--accepted-p (buffer-file-name))
                               (eclim-completion-start))))
               (when start (buffer-substring-no-properties start (point)))))
     (candidates (company-emacs-eclim--candidates arg))
