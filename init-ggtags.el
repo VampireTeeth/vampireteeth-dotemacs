@@ -6,3 +6,4 @@
 (evil-leader/set-key "gd" 'ggtags-find-definition)
 (evil-leader/set-key "gr" 'ggtags-find-reference)
 (setenv "GTAGSTHROUGH" "true")
+(setenv "GTAGSLABLE" "gtags")
