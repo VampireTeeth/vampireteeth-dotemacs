@@ -33,6 +33,11 @@
 (add-to-list 'load-path "~/.emacs.d/js2-refactor")
 ;;(add-to-list 'load-path "~/.emacs.d/auto-complete-nxml")
 (add-to-list 'load-path "~/.emacs.d/ggtags")
+
+(add-to-list 'load-path "~/.emacs.d/jdee")
+
+;;(add-to-list 'load-path "~/.emacs.d/cedet")
+
 ;;(add-to-list 'load-path "~/.emacs.d/emacs-eclim")
 
 ;;(add-to-list 'load-path "~/.emacs.d/replace-colorthemes")
@@ -50,6 +55,7 @@
 ;;(load-file "~/.emacs.d/init-web-beautify.el")
 (load-file "~/.emacs.d/init-js.el")
 (load-file "~/.emacs.d/init-ggtags.el")
+(load-file "~/.emacs.d/init-jdee.el")
 ;;(load-file "~/.emacs.d/init-emacs-eclim.el")
 (load-file "~/.emacs.d/init-misc.el")
 
