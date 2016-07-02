@@ -26,5 +26,4 @@
   (load-theme 'clarity t t)
   (enable-theme 'clarity))
 
-
 (add-hook 'after-init-hook 'my:misc-config)
