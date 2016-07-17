@@ -2,6 +2,7 @@
 ;;(require 'cl-lib)
 
 (add-to-list 'load-path "~/.emacs.d/s")
+(add-to-list 'load-path "~/.emacs.d/f")
 (add-to-list 'load-path "~/.emacs.d/popup")
 (add-to-list 'load-path "~/.emacs.d/undo-tree")
 (add-to-list 'load-path "~/.emacs.d/evil")
@@ -35,6 +36,10 @@
 (add-to-list 'load-path "~/.emacs.d/ggtags")
 
 (add-to-list 'load-path "~/.emacs.d/jdee")
+(add-to-list 'load-path "~/.emacs.d/git")
+(add-to-list 'load-path "~/.emacs.d/multi-web-mode")
+;;(add-to-list 'load-path "~/.emacs.d/flycheck")
+;;(add-to-list 'load-path "~/.emacs.d/flycheck-java")
 
 ;;(add-to-list 'load-path "~/.emacs.d/cedet")
 
@@ -56,7 +61,10 @@
 (load-file "~/.emacs.d/init-js.el")
 (load-file "~/.emacs.d/init-ggtags.el")
 (load-file "~/.emacs.d/init-jdee.el")
+(load-file "~/.emacs.d/init-git.el")
+;;(load-file "~/.emacs.d/init-flycheck-java.el")
 ;;(load-file "~/.emacs.d/init-emacs-eclim.el")
+(load-file "~/.emacs.d/init-multi-web-mode.el")
 (load-file "~/.emacs.d/init-misc.el")
 
 (custom-set-faces
