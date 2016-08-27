@@ -36,7 +36,7 @@
 (add-to-list 'load-path "~/.emacs.d/ggtags")
 
 (add-to-list 'load-path "~/.emacs.d/jdee")
-(add-to-list 'load-path "~/.emacs.d/git")
+;;(add-to-list 'load-path "~/.emacs.d/git")
 (add-to-list 'load-path "~/.emacs.d/multi-web-mode")
 ;;(add-to-list 'load-path "~/.emacs.d/flycheck")
 ;;(add-to-list 'load-path "~/.emacs.d/flycheck-java")
@@ -61,7 +61,7 @@
 (load-file "~/.emacs.d/init-js.el")
 (load-file "~/.emacs.d/init-ggtags.el")
 (load-file "~/.emacs.d/init-jdee.el")
-(load-file "~/.emacs.d/init-git.el")
+;;(load-file "~/.emacs.d/init-git.el")
 ;;(load-file "~/.emacs.d/init-flycheck-java.el")
 ;;(load-file "~/.emacs.d/init-emacs-eclim.el")
 (load-file "~/.emacs.d/init-multi-web-mode.el")
