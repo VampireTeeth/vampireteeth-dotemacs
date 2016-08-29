@@ -20,6 +20,7 @@
     (set-frame-font "Dejavu Sans Mono-12"))
    ((find-font (font-spec :name "Lucida Console"))
     (set-frame-font "Lucida Console-12")))
+  (set-face-attribute 'default nil :height 140)
   (setq-default indent-tabs-mode nil)
   (setq-default tab-width 4)
   (setq c-basic-offset 4)
