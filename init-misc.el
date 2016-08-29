@@ -17,9 +17,9 @@
           (menu-bar-lines . 2)))
   (cond
    ((find-font (font-spec :name "Dejavu Sans Mono"))
-    (set-frame-font "Dejavu Sans Mono-12"))
+    (set-frame-font "Dejavu Sans Mono-14"))
    ((find-font (font-spec :name "Lucida Console"))
-    (set-frame-font "Lucida Console-12")))
+    (set-frame-font "Lucida Console-14")))
   (set-face-attribute 'default nil :height 140)
   (setq-default indent-tabs-mode nil)
   (setq-default tab-width 4)
