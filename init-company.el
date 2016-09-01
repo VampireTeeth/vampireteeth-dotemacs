@@ -5,6 +5,7 @@
   '(progn
      (global-company-mode t)
      (define-key company-mode-map (kbd "TAB") 'company-complete)
+     (define-key company-mode-map (kbd "M-;") 'company-files)
      (custom-set-faces
       ;; custom-set-faces was added by Custom.
       ;; If you edit it by hand, you could mess it up, so be careful.

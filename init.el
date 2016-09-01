@@ -37,7 +37,8 @@
 
 (add-to-list 'load-path "~/.emacs.d/jdee")
 ;;(add-to-list 'load-path "~/.emacs.d/git")
-(add-to-list 'load-path "~/.emacs.d/multi-web-mode")
+(add-to-list 'load-path "~/.emacs.d/web-mode")
+;;(add-to-list 'load-path "~/.emacs.d/multi-web-mode")
 ;;(add-to-list 'load-path "~/.emacs.d/flycheck")
 ;;(add-to-list 'load-path "~/.emacs.d/flycheck-java")
 
@@ -46,26 +47,49 @@
 ;;(add-to-list 'load-path "~/.emacs.d/emacs-eclim")
 
 ;;(add-to-list 'load-path "~/.emacs.d/replace-colorthemes")
+
+(add-to-list 'load-path "~/.emacs.d/web-completion-data")
+(add-to-list 'load-path "~/.emacs.d/ac-html-angular")
+(add-to-list 'load-path "~/.emacs.d/company-web")
+(add-to-list 'load-path "~/.emacs.d/angular-mode")
+(add-to-list 'load-path "~/.emacs.d/configs")
+
 (add-to-list 'custom-theme-load-path (file-name-as-directory "~/.emacs.d/replace-colorthemes"))
 
 
 
-(load-file "~/.emacs.d/init-evil.el")
-(load-file "~/.emacs.d/init-ido.el")
-(load-file "~/.emacs.d/init-paredit.el")
-(load-file "~/.emacs.d/init-highlight-parentheses.el")
+;;(load-file "~/.emacs.d/init-evil.el")
+(require 'init-evil)
+;;(load-file "~/.emacs.d/init-ido.el")
+(require 'init-ido)
+;;(load-file "~/.emacs.d/init-paredit.el")
+(require 'init-paredit)
+;;(load-file "~/.emacs.d/init-highlight-parentheses.el")
+(require 'init-highlight-parentheses)
 ;;(load-file "~/.emacs.d/init-ac.el")
 ;;(load-file "~/.emacs.d/init-ac-nxml.el")
-(load-file "~/.emacs.d/init-company.el")
+;;(load-file "~/.emacs.d/init-company.el")
+(require 'init-company)
+(require 'web-mode)
+(require 'init-company-web)
 ;;(load-file "~/.emacs.d/init-web-beautify.el")
-(load-file "~/.emacs.d/init-js.el")
-(load-file "~/.emacs.d/init-ggtags.el")
-(load-file "~/.emacs.d/init-jdee.el")
+;;(load-file "~/.emacs.d/init-js.el")
+(require 'init-js)
+;;(load-file "~/.emacs.d/init-ggtags.el")
+(require 'init-ggtags)
+;;(load-file "~/.emacs.d/init-jdee.el")
+(require 'init-jdee)
 ;;(load-file "~/.emacs.d/init-git.el")
 ;;(load-file "~/.emacs.d/init-flycheck-java.el")
 ;;(load-file "~/.emacs.d/init-emacs-eclim.el")
-(load-file "~/.emacs.d/init-multi-web-mode.el")
-(load-file "~/.emacs.d/init-misc.el")
+
+
+;;(load-file "~/.emacs.d/init-multi-web-mode.el")
+;;(load-file "~/.emacs.d/init-company-web.el")
+;;(load-file "~/.emacs.d/init-misc.el")
+(require 'angular-mode)
+(require 'ac-html-angular)
+(require 'init-misc)
 
 
 (put 'narrow-to-region 'disabled nil)
