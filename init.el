@@ -70,7 +70,7 @@
 ;;(load-file "~/.emacs.d/init-ac-nxml.el")
 ;;(load-file "~/.emacs.d/init-company.el")
 (require 'init-company)
-(require 'web-mode)
+(require 'init-web-mode)
 (require 'init-company-web)
 ;;(load-file "~/.emacs.d/init-web-beautify.el")
 ;;(load-file "~/.emacs.d/init-js.el")
