@@ -4,6 +4,7 @@
 (eval-after-load "company"
   '(progn
      (global-company-mode t)
+     (setq company-dabbrev-downcase nil)
      (define-key company-mode-map (kbd "TAB") 'company-complete)
      (define-key company-mode-map (kbd "M-;") 'company-files)
      (custom-set-faces

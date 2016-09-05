@@ -55,8 +55,12 @@
 (add-to-list 'load-path "~/.emacs.d/configs")
 
 (add-to-list 'custom-theme-load-path (file-name-as-directory "~/.emacs.d/replace-colorthemes"))
+(add-to-list 'custom-theme-load-path (file-name-as-directory "~/.emacs.d/solarized-theme"))
+(add-to-list 'custom-theme-load-path (file-name-as-directory "~/.emacs.d/caroline-theme"))
+(add-to-list 'custom-theme-load-path (file-name-as-directory "~/.emacs.d/foggy-night-theme"))
 
 
+(add-to-list 'load-path "~/.emacs.d/solarized-theme")
 
 ;;(load-file "~/.emacs.d/init-evil.el")
 (require 'init-evil)
@@ -91,11 +95,4 @@
 (require 'ac-html-angular)
 (require 'init-misc)
 
-
 (put 'narrow-to-region 'disabled nil)
-(custom-set-variables
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- )
