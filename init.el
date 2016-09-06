@@ -57,7 +57,7 @@
 (add-to-list 'load-path "~/.emacs.d/angular-mode")
 
 ;;(add-to-list 'load-path "~/.emacs.d/erlang")
-(add-to-list 'load-path "~/.emacs.d/distel-completion-lib")
+;;(add-to-list 'load-path "~/.emacs.d/distel-completion-lib")
 (add-to-list 'load-path "~/.emacs.d/company-distel")
 (add-to-list 'load-path "~/.emacs.d/configs")
 (add-to-list 'load-path (getenv "DISTEL_ELISP_PATH"))

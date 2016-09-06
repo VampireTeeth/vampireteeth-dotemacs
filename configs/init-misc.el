@@ -25,7 +25,8 @@
   (setq-default tab-width 4)
   (setq c-basic-offset 4)
   (load-theme 'foggy-night t t)
-  (enable-theme 'foggy-night))
+  (enable-theme 'foggy-night)
+  (toggle-debug-on-error))
 
 (add-hook 'after-init-hook 'my:misc-config)
 
