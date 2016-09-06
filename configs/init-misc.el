@@ -26,7 +26,8 @@
   (setq c-basic-offset 4)
   (load-theme 'foggy-night t t)
   (enable-theme 'foggy-night)
-  (toggle-debug-on-error))
+  ;;(toggle-debug-on-error)
+  )
 
 (add-hook 'after-init-hook 'my:misc-config)
 
