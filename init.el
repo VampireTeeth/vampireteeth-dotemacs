@@ -56,11 +56,12 @@
 (add-to-list 'load-path "~/.emacs.d/company-web")
 (add-to-list 'load-path "~/.emacs.d/angular-mode")
 
-(add-to-list 'load-path "~/.emacs.d/erlang")
+;;(add-to-list 'load-path "~/.emacs.d/erlang")
 (add-to-list 'load-path "~/.emacs.d/distel-completion-lib")
 (add-to-list 'load-path "~/.emacs.d/company-distel")
 (add-to-list 'load-path "~/.emacs.d/configs")
 (add-to-list 'load-path (getenv "DISTEL_ELISP_PATH"))
+(add-to-list 'load-path (getenv "EMACS_ERLANG_MODE_DIR"))
 
 (add-to-list 'custom-theme-load-path (file-name-as-directory "~/.emacs.d/replace-colorthemes"))
 (add-to-list 'custom-theme-load-path (file-name-as-directory "~/.emacs.d/solarized-theme"))
@@ -103,7 +104,9 @@
 (require 'ac-html-angular)
 
 (require 'init-flycheck-tip)
-(require 'init-erlang)
+;;(require 'init-erlang)
+(require 'init-erlang-mode)
+(require 'init-distel)
 (require 'init-company-distel)
 (require 'init-misc)
 
