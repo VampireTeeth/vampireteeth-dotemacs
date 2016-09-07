@@ -1,3 +1,5 @@
+(setq gc-cons-threshold 100000000)
+
 (add-to-list 'load-path "~/.emacs.d/lib")
 ;;(require 'cl-lib)
 
@@ -67,39 +69,19 @@
 (add-to-list 'custom-theme-load-path (file-name-as-directory "~/.emacs.d/solarized-theme"))
 (add-to-list 'custom-theme-load-path (file-name-as-directory "~/.emacs.d/caroline-theme"))
 (add-to-list 'custom-theme-load-path (file-name-as-directory "~/.emacs.d/foggy-night-theme"))
+(add-to-list 'custom-theme-load-path (file-name-as-directory "~/.emacs.d/solarized-theme"))
 
 
-(add-to-list 'load-path "~/.emacs.d/solarized-theme")
-
-;;(load-file "~/.emacs.d/init-evil.el")
 (require 'init-evil)
-;;(load-file "~/.emacs.d/init-ido.el")
 (require 'init-ido)
-;;(load-file "~/.emacs.d/init-paredit.el")
 (require 'init-paredit)
-;;(load-file "~/.emacs.d/init-highlight-parentheses.el")
 (require 'init-highlight-parentheses)
-;;(load-file "~/.emacs.d/init-ac.el")
-;;(load-file "~/.emacs.d/init-ac-nxml.el")
-;;(load-file "~/.emacs.d/init-company.el")
 (require 'init-company)
 (require 'init-web-mode)
 (require 'init-company-web)
-;;(load-file "~/.emacs.d/init-web-beautify.el")
-;;(load-file "~/.emacs.d/init-js.el")
 (require 'init-js)
-;;(load-file "~/.emacs.d/init-ggtags.el")
 (require 'init-ggtags)
-;;(load-file "~/.emacs.d/init-jdee.el")
 (require 'init-jdee)
-;;(load-file "~/.emacs.d/init-git.el")
-;;(load-file "~/.emacs.d/init-flycheck-java.el")
-;;(load-file "~/.emacs.d/init-emacs-eclim.el")
-
-
-;;(load-file "~/.emacs.d/init-multi-web-mode.el")
-;;(load-file "~/.emacs.d/init-company-web.el")
-;;(load-file "~/.emacs.d/init-misc.el")
 (require 'angular-mode)
 (require 'ac-html-angular)
 

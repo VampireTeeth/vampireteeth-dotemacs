@@ -8,3 +8,5 @@ abbrev_defs
 cedet
 eshell
 semanticdb
+*.elc
+.mc-lists.el
